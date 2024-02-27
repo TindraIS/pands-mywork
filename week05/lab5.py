@@ -89,7 +89,7 @@ dictionary = {
     ]
 }
 
-print("Student: {}".format(dictionary["student"]))
+print(f'Student: {dictionary["student"]}')
 
 for module in dictionary["modules"]:
-    print("\t {} \t: {}".format(module["module_name"], module["module_grade"]))
+    print(f'\t {module["module_name"]}\t: {module["module_grade"]}')
